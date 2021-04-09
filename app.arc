@@ -2,7 +2,9 @@
 begin-app
 
 @http
-get /
+/*
+  method any
+  src src/http/get-index
 
 @tables
 data
